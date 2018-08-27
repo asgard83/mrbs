@@ -1,0 +1,129 @@
+.cp-featured-news-slider {
+	width: 100%;
+}
+.cp-featured-news-slider .item, .cp-featured-news-slider .cp-post-thumb {
+	position: relative;
+}
+.cp-featured-news-slider .cp-post-content {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background: rgba(0, 0, 0, .80);
+	width: 100%;
+	padding: 40px 30px 26px;
+	z-index: 99;
+}
+.cp-featured-news-slider .cp-post-content h1 {
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin: 0px;
+	line-height: 15px;
+	margin-bottom: 15px;
+}
+.cp-featured-news-slider .cp-post-content h1 a {
+	color: #fff;
+}
+.cp-featured-news-slider .cp-post-content .cp-post-tools {
+	margin: 0px;
+	padding: 0px;
+}
+.cp-featured-news-slider .cp-post-content .cp-post-tools li {
+	float: left;
+	margin-right: 20px;
+	color: #fff;
+}
+.cp-featured-news-slider .catname {
+	position: absolute;
+	top: -15px;
+}
+.cp-featured-news-slider .btn {
+	padding: 5px 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 14px;
+	border-radius: 2px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+	text-transform: uppercase;
+	color: #fff;
+}
+.featured-slider img {
+	width: 100%;
+	height: auto;
+}
+.cp-post-content h3 {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+.cp-post-content h3 a {
+	text-decoration: none;
+	color: #222;
+}
+.cp-post-content {
+	padding: 0px 20px 20px 20px;
+	width: 100%;
+}
+.catname {
+	display: inline-block;
+}
+.catname-btn {
+	border-radius: 2px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+	color: #fff;
+	display: block;
+	font: 900 14px/30px "Roboto", sans-serif;
+	height: 30px;
+	padding: 0 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.catname-btn:hover {
+	color: #fff;
+}
+.cp-post-tools {
+	margin: 10px 0 0;
+	padding: 0px;
+	width: 100%;
+	clear: both;
+}
+.cp-post-tools li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 14px;
+	color: #888888;
+	font-size: 14px;
+	line-height: 24px;
+}
+.cp-post-tools li:last-child {
+	margin: 0px;
+}
+.cp-post-tools .fa {
+	font-size: 16px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-prev, .owl-theme .owl-controls .owl-buttons div.owl-next {
+	background: #fff;
+	border-radius: 3px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	float: left;
+	opacity: 1;
+	font-size: 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .22);
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next {
+	float: right;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-prev:after, .owl-theme .owl-controls .owl-buttons div.owl-next:after {
+	content: "\f104";
+	font-family: FontAwesome;
+	font-size: 18px;
+	color: #0f0f0f;
+	line-height: 24px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next:after {
+	content: "\f105";
+}
