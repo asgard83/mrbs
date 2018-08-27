@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '10.1.5.226';
-$db['default']['username'] = 'bpom';
-$db['default']['password'] = 'bpom3d11';
-$db['default']['database'] = 'mrbs';
+$db['default']['hostname'] = 'host';
+$db['default']['username'] = 'username';
+$db['default']['password'] = 'password';
+$db['default']['database'] = 'database';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
